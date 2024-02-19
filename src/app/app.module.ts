@@ -15,6 +15,7 @@ import { ZoneCardComponent } from './Components/zone-card/zone-card.component';
 import { ArticleCardComponent } from './Components/article-card/article-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RegisterComponent } from './Pages/register/register.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { RegisterComponent } from './Pages/register/register.component';
   imports: [
     HttpClientModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
