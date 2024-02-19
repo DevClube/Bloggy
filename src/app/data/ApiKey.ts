@@ -1,0 +1,1 @@
+export  ApiKey:string = "2a6e9254a53b4aaf8775319ef6619450";
